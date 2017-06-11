@@ -1,0 +1,31 @@
+{
+  "name": "pluto-vr",
+  "version": "1.0.0",
+  "description": "Pluto VR test",
+  "main": "src/calculator.js",
+  "bin": {
+    "calculator": "bin/calculator.js"
+  },
+  "scripts": {
+    "start": "node bin/calculator",
+    "test": "mocha test/**/*-test.js",
+    "posttest": "npm run lint",
+    "lint": "eslint src test/**/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e1262667/pluto-vr.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e1262667/pluto-vr/issues"
+  },
+  "homepage": "https://github.com/e1262667/pluto-vr#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^3.19.0",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.4"
+  }
+}
